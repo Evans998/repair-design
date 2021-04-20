@@ -1,27 +1,28 @@
 {
-  "name": "repair-design",
+  "name": "project",
   "version": "1.0.0",
-  "description": "Сайт компании по ремонту мебели",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ange1maycry/project.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "gulp": "^4.0.2"
+  "bugs": {
+    "url": "https://github.com/ange1maycry/project/issues"
   },
-  "dependencies": {
-    "browser-sync": "^2.26.14",
+  "homepage": "https://github.com/ange1maycry/project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-sass": "^4.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Evans998/repair-design.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Evans998/repair-design/issues"
-  },
-  "homepage": "https://github.com/Evans998/repair-design#readme"
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "browser-sync": "^2.26.14"
+  }
 }
