@@ -348,7 +348,7 @@ template {
   border: none;
   border-bottom: 1px solid rgba(54, 54, 54, 0.3);
   font-size: 1.285rem;
-  color: #fff;
+  color: #131313;
   padding: 0.5rem 0; }
   .input--light::-moz-placeholder {
     color: #fff; }
@@ -764,7 +764,8 @@ img {
     max-width: 37.142rem;
     margin: auto; }
   .footer__input {
-    padding-top: 0.3rem; }
+    padding-top: 0.3rem;
+    color: #fff; }
     .footer__input-group {
       display: flex;
       flex-direction: column;
@@ -826,12 +827,14 @@ img {
   .modal__form {
     display: flex;
     flex-direction: column; }
-  .modal__input-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3.482rem; }
-  .modal__input:last-of-type {
-    margin-bottom: 1rem; }
+  .modal__input {
+    color: #fff; }
+    .modal__input-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3.482rem; }
+    .modal__input:last-of-type {
+      margin-bottom: 1rem; }
   .modal__policy {
     margin-bottom: 2.7rem; }
   .modal__button {
